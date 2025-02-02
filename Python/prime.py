@@ -3,7 +3,7 @@ num = int(input("enter the number to check : "))
 cond = True
 if (num<=1):
     print(f"{num} is not a prime number")
-    exit(0)
+    exit(1)
 for i in range (2,int(math.sqrt(num))+1):
     if (num%i==0):
         cond = False
